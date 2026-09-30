@@ -1,0 +1,16 @@
+{
+  "name": "dsh-jyf-http-noshell",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "通用 HTTP 请求工具：GET/POST/PUT/DELETE + application/json + BASIC AUTH，全部由入参指定",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
